@@ -1,12 +1,18 @@
 import React from 'react';
-import BabylonView from './components/BabylonView'
+import BabylonView from './components/BabylonView';
+import MainMenu from './pages/MainMenu';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>React Babylon App</h1>
-      <BabylonView />
+      <div class="container">
+        <BabylonView />
+      </div>
+      
+      <div class="ui">
+        <MainMenu />
+      </div>
     </div>
   );
 }
